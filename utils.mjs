@@ -37,6 +37,24 @@ export function getAllNodeIds (arr) {
 }
 
 /**
+ * 获取树的所有节点
+ * @param arr
+ * @returns {*[]|[]}
+ */
+export function getAllNodes (arr) {
+  let allNodes = []
+  let leftArr = []
+  arr.forEach(item => {
+    allNodes.push(item)
+    if (item.children && item.children.length > 0) {
+      leftArr = leftArr.concat(item.children)
+    }
+  })
+
+  return leftArr.length ? allNodes.concat(getAllNodes(leftArr)) : allNodes
+}
+
+/**
  * 获取指定ID的树节点的所有id
  * @param arr
  * @param id
@@ -53,4 +71,23 @@ export function getTreeNodeIds (arr, id) {
   })
 
   return resultIds
+}
+
+/**
+ * 获取树某个对应id的全部节点
+ * @param arr
+ * @param id
+ * @returns {[]}
+ */
+export function getSomeBranchNodes (arr, id) {
+  let resultNodes = []
+
+  arr.map(item => {
+    if (item.id === id) {
+      resultNodes.push(item)
+      resultNodes = resultNodes.concat(getAllNodes(item.children))
+    }
+  })
+
+  return resultNodes
 }
