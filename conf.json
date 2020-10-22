@@ -1,5 +1,8 @@
 {
-  "plugins": ["plugins/markdown"],
+  "plugins": [
+    "plugins/markdown",
+    "plugins/summarize"
+  ],
   "recurseDepth": 10,
   "source": {
     "includePattern": ".+\\.js(doc|x)?$",
