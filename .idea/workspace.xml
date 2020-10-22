@@ -98,7 +98,7 @@
       <workItem from="1603358599669" duration="1241000" />
       <workItem from="1603360418345" duration="630000" />
       <workItem from="1603363941621" duration="730000" />
-      <workItem from="1603369497112" duration="1120000" />
+      <workItem from="1603369497112" duration="1361000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1599026959225</created>
@@ -156,7 +156,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603380213682</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="更改模板">
+      <created>1603380510307</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603380510307</updated>
+    </task>
+    <task id="LOCAL-00010" summary="更改模板">
+      <created>1603380670090</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1603380670090</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,10 +211,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="299" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1920.1040@0.0.1920.1040" timestamp="1599617232482" />
-    <state x="417" y="14" key="CommitChangelistDialog2" timestamp="1603380213443">
+    <state x="417" y="14" key="CommitChangelistDialog2" timestamp="1603380669894">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="417" y="14" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1603380213443" />
+    <state x="417" y="14" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1603380669894" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1599707514160">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -234,10 +248,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602208290935" />
-    <state x="483" y="255" key="Vcs.Push.Dialog.v2" timestamp="1603380218264">
+    <state x="483" y="255" key="Vcs.Push.Dialog.v2" timestamp="1603380673801">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="483" y="255" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603380218264" />
+    <state x="483" y="255" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603380673801" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603355223801" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603354166170" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599622095559" />
