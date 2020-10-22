@@ -18,7 +18,7 @@ jobs:
           source_dir: ./src
           output_dir: ./out
           config_file: conf.json
-          template: minami
+          template: jaguarjs-jsdoc
           front_page: README.md
 
       - name: Deploy
