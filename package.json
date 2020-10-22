@@ -2,7 +2,7 @@
   "name": "utils",
   "version": "1.0.0",
   "scripts": {
-    "start": "yarn parcel index.html"
+    "start": "yarn parcel src/index.html"
   },
   "repository": "https://github.com/oovwall/utils.git",
   "author": "张振华 <oovwall@163.com>",

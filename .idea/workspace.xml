@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40154c3e-1adc-4403-903b-a821bc991643" name="Default Changelist" comment="新加入两个树形方法">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/utils.mjs" afterDir="false" />
+    <list default="true" id="40154c3e-1adc-4403-903b-a821bc991643" name="Default Changelist" comment="加入parcel">
+      <change afterPath="$PROJECT_DIR$/conf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +79,17 @@
       <workItem from="1599616556778" duration="5753000" />
       <workItem from="1599623297260" duration="5604000" />
       <workItem from="1602203256435" duration="89000" />
-      <workItem from="1602203365465" duration="849000" />
+      <workItem from="1602203365465" duration="1798000" />
+      <workItem from="1602205191506" duration="1788000" />
+      <workItem from="1602207025369" duration="1126000" />
+      <workItem from="1602208848489" duration="30000" />
+      <workItem from="1603332266103" duration="586000" />
+      <workItem from="1603332883462" duration="1825000" />
+      <workItem from="1603334745215" duration="1480000" />
+      <workItem from="1603336946186" duration="1560000" />
+      <workItem from="1603349862991" duration="1707000" />
+      <workItem from="1603351730704" duration="1785000" />
+      <workItem from="1603353757930" duration="331000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1599026959225</created>
@@ -97,7 +105,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599622084892</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="新加入两个树形方法">
+      <created>1602204498840</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602204498840</updated>
+    </task>
+    <task id="LOCAL-00004" summary="加入parcel">
+      <created>1603352991906</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603352991906</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +140,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="新加入两个树形方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="新加入两个树形方法" />
+    <MESSAGE value="加入parcel" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入parcel" />
   </component>
   <component name="WindowStateProjectService">
     <state x="753" y="23" key="#HTML" timestamp="1599618619676">
@@ -137,6 +160,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599707514160" />
+    <state x="2375" y="175" key="FileDocumentManager.FileCacheConflict" timestamp="1603350117514">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2375" y="175" key="FileDocumentManager.FileCacheConflict/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603350117514" />
     <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1599707519355">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -153,18 +180,24 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599707519355" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1602203343725">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1602204793865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602203343725" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602204793865" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599617875587" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599622095559">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1602208290935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602208290935" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603353000082">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602204504247" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603353000082" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599622095559" />
-    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602203286175">
+    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603332268786">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602203286175" />
+    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603332268786" />
   </component>
 </project>
