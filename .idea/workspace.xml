@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40154c3e-1adc-4403-903b-a821bc991643" name="Default Changelist" comment="目录更新">
+    <list default="true" id="40154c3e-1adc-4403-903b-a821bc991643" name="Default Changelist" comment="jsdoc语法更改">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +94,11 @@
       <workItem from="1603336946186" duration="1560000" />
       <workItem from="1603349862991" duration="1707000" />
       <workItem from="1603351730704" duration="1785000" />
-      <workItem from="1603353757930" duration="1441000" />
+      <workItem from="1603353757930" duration="2680000" />
+      <workItem from="1603356489961" duration="1667000" />
+      <workItem from="1603358599669" duration="1241000" />
+      <workItem from="1603360418345" duration="630000" />
+      <workItem from="1603363941621" duration="730000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1599026959225</created>
@@ -132,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603354162062</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="jsdoc语法更改">
+      <created>1603355218272</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603355218272</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +165,8 @@
     <MESSAGE value="新加入两个树形方法" />
     <MESSAGE value="加入parcel" />
     <MESSAGE value="目录更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="目录更新" />
+    <MESSAGE value="jsdoc语法更改" />
+    <option name="LAST_COMMIT_MESSAGE" value="jsdoc语法更改" />
   </component>
   <component name="WindowStateProjectService">
     <state x="753" y="23" key="#HTML" timestamp="1599618619676">
@@ -203,10 +214,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602208290935" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603354166170">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603355223801">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602204504247" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603355223801" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603354166170" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599622095559" />
     <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603332268786">
