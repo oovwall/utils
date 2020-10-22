@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="40154c3e-1adc-4403-903b-a821bc991643" name="Default Changelist" comment="jsdoc语法更改">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GitLab/test" />
+    <property name="last_opened_file_path" value="$USER_HOME$/GitLab/test" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -99,6 +99,7 @@
       <workItem from="1603358599669" duration="1241000" />
       <workItem from="1603360418345" duration="630000" />
       <workItem from="1603363941621" duration="730000" />
+      <workItem from="1603369497112" duration="609000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1599026959225</created>

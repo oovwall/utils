@@ -1,7 +1,7 @@
 /**
  * 获取树的叶子id
- * @param arr
- * @returns { Array }
+ * @param {Array} arr - 源数组
+ * @returns {Array} - 所有叶子id
  */
 export function filterLeafIds (arr) {
   let filteredIds = []
@@ -20,8 +20,8 @@ export function filterLeafIds (arr) {
 
 /**
  * 获取树的所有id
- * @param arr
- * @returns { Array }
+ * @param {Array} arr - 源数组
+ * @returns {Array} - 树所有id
  */
 export function getAllNodeIds (arr) {
   let allIds = []
@@ -38,8 +38,8 @@ export function getAllNodeIds (arr) {
 
 /**
  * 获取树的所有节点
- * @param arr
- * @returns { Array }
+ * @param {Array} arr - 源数组
+ * @returns {Array} - 所有节点
  */
 export function getAllNodes (arr) {
   let allNodes = []
@@ -56,9 +56,9 @@ export function getAllNodes (arr) {
 
 /**
  * 获取指定ID的树节点的所有id
- * @param arr
- * @param id
- * @returns { Array }
+ * @param {Array} arr - 源数组
+ * @param {(number|string)} id
+ * @returns {Array}
  */
 export function getTreeNodeIds (arr, id) {
   let resultIds = []
@@ -75,9 +75,9 @@ export function getTreeNodeIds (arr, id) {
 
 /**
  * 获取树某个对应id的全部节点
- * @param arr
- * @param id
- * @returns { Array }
+ * @param {Array} arr - 源数组
+ * @param {(number|string)} id
+ * @returns {Array}
  */
 export function getSomeBranchNodes (arr, id) {
   let resultNodes = []
