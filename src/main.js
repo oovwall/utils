@@ -1,4 +1,4 @@
-import { filterLeafIds, getAllNodeIds, getTreeNodeIds } from './utils.js'
+import { filterLeafIds, getAllNodeIds, getTreeNodeIds, getTreeNodeParentIds, getTreeParentIds } from './utils.js'
 
 let arr = [{
   id: 1,
@@ -49,3 +49,4 @@ function writeResult (id, content) {
 writeResult('filterLeafIds', filterLeafIds(arr))
 writeResult('getAllNodeIds', getAllNodeIds(arr))
 writeResult('getTreeNodeIds', getTreeNodeIds(arr, 3))
+writeResult('getTreeParentIds', getTreeParentIds(arr, 19))
